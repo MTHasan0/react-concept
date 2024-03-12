@@ -1,0 +1,27 @@
+.country-container{
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid tomato;
+}
+
+.countries-container{
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid tomato;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.visited{
+    background-color: bisque;
+    color: black;
+}
+
+.flag-container img{
+    width: 100px;
+}
+.flag-container{
+    width: 100px;
+    display: flex;
+    gap: 10px;
+}
